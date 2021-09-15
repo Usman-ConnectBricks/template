@@ -1,0 +1,164 @@
+/* Contact page */
+.tm-contact-left {
+    padding-right: 55px;
+}
+
+.form-control {
+    font-size: 1.2rem;
+    padding: 15px 0;
+}
+
+.form-control,
+.form-control:focus {
+    color: white;
+    background-color: transparent;
+}
+
+.form-control:focus {
+    border-bottom: 1px solid #99FF66;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+.form-control::-webkit-input-placeholder { color: white; }
+.form-control:-moz-placeholder { color: white; }
+.form-control::-moz-placeholder { color: white; }
+.form-control:-ms-input-placeholder { color: white; }
+
+.tm-mb-30 {
+    margin-bottom: 30px;
+}
+
+.tm-mb-45 {
+    margin-bottom: 45px;
+}
+
+.tm-btn-pad-2 {
+    padding: 10px 38px;
+}
+
+.map-outer{
+    position:relative;
+}
+
+.gmap-canvas {
+    overflow:hidden;
+    background:none!important;
+}
+
+.map-outer,
+.gmap-canvas {
+    height:200px;
+    width:100%;
+}
+
+.tm-footer-right {
+    text-align: right;
+}
+
+@media (min-width: 992px)
+{
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: flex-end;
+    }
+}
+
+@media (max-width: 1200px) {
+    .navbar .navbar-nav .nav-item .nav-link {
+        padding: 15px 45px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .navbar .navbar-nav .nav-item .nav-link {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar {
+        margin-top: 0;
+    }
+
+    .navbar {
+        position: relative;
+    }
+    
+    .navbar-collapse {
+        position: absolute;
+        top: 63px;
+        right: 0;
+        background: rgb(54 75 96);
+        border-radius: 5px;
+    }
+
+    .navbar .navbar-nav .nav-item {
+        margin-bottom: 20px;
+    }
+
+    .page-left,
+    .page-right {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cd-hero-slider {
+        padding: 10px 0;
+    }
+}
+
+@media (max-width: 834px) {
+    .intro-left {
+        width: 65%;
+    }
+
+    .intro-right {
+        width: 35%;
+    }
+}
+
+@media (max-width: 767px) {
+    .tm-contact-left {
+        padding-right: 15px;
+        margin-bottom: 50px;
+    }
+
+    .tm-footer-right {
+        text-align: left;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .intro-left,
+    .intro-right {
+        width: 100%;
+    }
+
+    .intro-left {
+        margin-right: 0;
+        margin-bottom: 20px;
+        max-width: none;
+    }
+
+    .intro-right {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .intro-container {
+        flex-direction: column;
+    }
+
+    .intro-img-1 {
+        margin-right: 4%;
+        margin-bottom: 0;
+        width: 48%
+    }
+
+    .intro-img-2 {
+        width: 48%;
+    }
+}
